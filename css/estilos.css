@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3b16dd;
+    padding: 1px;
+    border: 2px solid black;
+}
+.flex-container li{
+    display: flexbox;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(116, 128, 184);
+    width: fit-content;
+    margin: 5px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.form{
+    display: flexbox;
+    justify-content: start;
+    width: fit-content;
+    font-size: 20px;
+    background-color: darkcyan;
+    font-style: italic;
+    color: darkslateblue;
+}
+.divyoutube{
+    display: flex;
+    flex-wrap: wrap;
+}
+.titulos{
+    display:flex;
+    align-items: flex-start;
+    background: rgb(35, 162, 247);
+    font-size: x-large;    
+}
+.fondo{
+    background-color: rgb(204, 7, 7);
+}
